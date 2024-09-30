@@ -1,0 +1,11 @@
+[package]
+name = "cargo-insta-workspace-root-bug"
+version = "0.1.0"
+edition = "2021"
+
+[dev-dependencies]
+insta = { version = "1.29.0", features = ["yaml"] }
+
+[[test]]
+name = "lib"
+path = "../tests/main.rs"

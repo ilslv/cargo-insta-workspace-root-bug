@@ -1,0 +1,6 @@
+---
+source: lib/../tests/main.rs
+assertion_line: 6
+expression: result
+---
+5
